@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { store } from '../store';
 
-const API_KEY = import.meta.env.VITE_TMDB_API_KEY;
+const API_KEY = "159a79a701af22079742cb518758b994";
 console.log('API Key available:', !!API_KEY); 
 
 if (!API_KEY) {
